@@ -1,5 +1,4 @@
 # VV Admin
-
 A Flutter-based admin application with comprehensive features for business management and administration.
 
 ## Getting Started
@@ -30,7 +29,6 @@ flutter run
 ```
 
 ## Features
-
 - 🌐 Multi-language support with Flutter localizations
 - 🔐 Authentication and authorization
 - 🌍 Connectivity handling
@@ -46,7 +44,6 @@ flutter run
 - 📱 Responsive UI with shimmer effects
 
 ## Project Structure
-
 ```
 lib/
 ├── data/
@@ -97,28 +94,10 @@ lib/
 - Geolocator: ^10.1.0
 
 ## Assets
-
 The project includes the following assets:
 - Images: `assets/image/`
 - Language files: `assets/language/`
 - Fonts: Ubuntu (Regular, Medium, Bold)
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the [License Name] - see the LICENSE file for details
-
-## Support
-
-For support, please contact [support email/contact information]
-
 ## Versioning
-
 Current version: 1.0.0+0
