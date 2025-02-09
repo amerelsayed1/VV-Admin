@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:vv_admin/helper/price_converter.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/styles.dart';
 
 class BalanceStatementWidget extends StatelessWidget {
   final String? text;

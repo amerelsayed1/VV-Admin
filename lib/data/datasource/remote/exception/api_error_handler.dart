@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/error_response.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:vv_admin/data/model/response/base/error_response.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/main.dart';
 
 
 class ApiErrorHandler {

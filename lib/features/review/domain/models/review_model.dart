@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
+import 'package:vv_admin/data/model/image_full_url.dart';
+import 'package:vv_admin/features/product/domain/models/product_model.dart';
 
 class ReviewModel {
   int? id;

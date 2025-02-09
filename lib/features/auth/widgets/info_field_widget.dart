@@ -3,20 +3,20 @@ import 'package:country_code_picker/country_code_picker.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_pass_textfeild_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/pass_view.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/code_picker_widget.dart';
-import 'package:sixvalley_vendor_app/features/more/screens/html_view_screen.dart';
+import 'package:vv_admin/common/basewidgets/textfeild/custom_pass_textfeild_widget.dart';
+import 'package:vv_admin/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:vv_admin/features/auth/widgets/pass_view.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/theme/controllers/theme_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/features/auth/widgets/code_picker_widget.dart';
+import 'package:vv_admin/features/more/screens/html_view_screen.dart';
 
 
 

@@ -1,14 +1,14 @@
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_body.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_withdraw_detail_model.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/order_history_log_model.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/repositories/delivery_man_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/services/delivery_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/data/model/response/response_model.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/delivery_man_body.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/delivery_man_withdraw_detail_model.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/order_history_log_model.dart';
+import 'package:vv_admin/features/delivery_man/domain/repositories/delivery_man_repository_interface.dart';
+import 'package:vv_admin/features/delivery_man/domain/services/delivery_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
+import 'package:vv_admin/main.dart';
 
 class DeliveryService implements DeliveryServiceInterface{
   DeliveryManRepositoryInterface deliveryManRepoInterface;

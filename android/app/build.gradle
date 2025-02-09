@@ -32,7 +32,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace "com.sixamtech.sixvalley.seller"
+    namespace "com.integerant.vv"
     compileSdk 35
     ndkVersion flutter.ndkVersion
 

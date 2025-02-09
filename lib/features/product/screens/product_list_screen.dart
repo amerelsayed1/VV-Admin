@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/screens/dashboard_screen.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_search_field_widget.dart';
-import 'package:sixvalley_vendor_app/features/product/widgets/product_widget.dart';
+import 'package:vv_admin/features/dashboard/screens/dashboard_screen.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/product/controllers/product_controller.dart';
+import 'package:vv_admin/features/profile/controllers/profile_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_search_field_widget.dart';
+import 'package:vv_admin/features/product/widgets/product_widget.dart';
 
 class ProductListMenuScreen extends StatefulWidget {
   final bool fromNotification;

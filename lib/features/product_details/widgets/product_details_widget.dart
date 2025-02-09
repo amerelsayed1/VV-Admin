@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/product_details/controllers/productDetailsController.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/controllers/add_product_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/see_more_button_widget.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/shop_product_card_widget.dart';
+import 'package:vv_admin/features/product/domain/models/product_model.dart';
+import 'package:vv_admin/features/product_details/controllers/productDetailsController.dart';
+import 'package:vv_admin/helper/price_converter.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/localization/controllers/localization_controller.dart';
+import 'package:vv_admin/features/addProduct/controllers/add_product_controller.dart';
+import 'package:vv_admin/theme/controllers/theme_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/see_more_button_widget.dart';
+import 'package:vv_admin/features/shop/widgets/shop_product_card_widget.dart';
 
 class ProductDetailsWidget extends StatefulWidget {
   final Product? productModel;

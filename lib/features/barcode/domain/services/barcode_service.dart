@@ -1,7 +1,7 @@
 
 
-import 'package:sixvalley_vendor_app/features/barcode/domain/repositories/barcode_reposity_interface.dart';
-import 'package:sixvalley_vendor_app/features/barcode/domain/services/barcode_service_interface.dart';
+import 'package:vv_admin/features/barcode/domain/repositories/barcode_reposity_interface.dart';
+import 'package:vv_admin/features/barcode/domain/services/barcode_service_interface.dart';
 
 class BarcodeService implements BarcodeServiceInterface{
   final BarcodeRepositoryInterface barcodeRepositoryInterface;

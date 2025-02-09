@@ -3,14 +3,14 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/services/order_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/order_details/controllers/order_details_controller.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/order/domain/models/order_model.dart';
+import 'package:vv_admin/features/order/domain/services/order_service_interface.dart';
+import 'package:vv_admin/features/order_details/controllers/order_details_controller.dart';
+import 'package:vv_admin/helper/api_checker.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
 
 class OrderController extends ChangeNotifier {
   final OrderServiceInterface orderServiceInterface;

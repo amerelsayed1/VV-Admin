@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/controllers/bottom_menu_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/features/dashboard/widgets/gradient_border_widget.dart';
-import 'package:sixvalley_vendor_app/features/menu/widgets/menu_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/pos/controllers/cart_controller.dart';
+import 'package:vv_admin/features/dashboard/controllers/bottom_menu_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/features/dashboard/widgets/gradient_border_widget.dart';
+import 'package:vv_admin/features/menu/widgets/menu_widget.dart';
 
 
 

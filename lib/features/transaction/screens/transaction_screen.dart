@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/transaction/controllers/transaction_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/transaction/widgets/transaction_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/transaction/controllers/transaction_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/no_data_screen.dart';
+import 'package:vv_admin/features/transaction/widgets/transaction_widget.dart';
 
 class TransactionScreen extends StatefulWidget {
   const TransactionScreen({Key? key}) : super(key: key);

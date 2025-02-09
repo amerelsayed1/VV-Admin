@@ -3,17 +3,17 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/services/shop_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/data/model/response/response_model.dart';
+import 'package:vv_admin/features/shop/domain/models/shop_model.dart';
+import 'package:vv_admin/features/shop/domain/services/shop_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
 import 'package:http/http.dart' as http;
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/features/profile/controllers/profile_controller.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
 
 class ShopController extends ChangeNotifier {
   final ShopServiceInterface shopServiceInterface;

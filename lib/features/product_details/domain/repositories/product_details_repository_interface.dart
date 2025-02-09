@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
 
 abstract class ProductDetailsRepositoryInterface {
   Future<ApiResponse> getProductDetails(int? productId);

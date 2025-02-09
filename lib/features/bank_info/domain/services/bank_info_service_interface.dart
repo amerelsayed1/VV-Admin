@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
+import 'package:vv_admin/features/profile/domain/models/profile_body.dart';
+import 'package:vv_admin/features/profile/domain/models/profile_info.dart';
 
 abstract class BankInfoServiceInterface {
   Future<dynamic> getBankList();

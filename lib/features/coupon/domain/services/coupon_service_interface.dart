@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/coupon/domain/models/coupon_model.dart';
+import 'package:vv_admin/features/coupon/domain/models/coupon_model.dart';
 
 abstract class CouponServiceInterface {
   Future<dynamic> getCouponList(int offset);

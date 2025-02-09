@@ -1,6 +1,6 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_body.dart';
+import 'package:vv_admin/features/chat/domain/models/message_body.dart';
 
 abstract class ChatServiceInterface {
   Future<dynamic> getChatList(String type, int offset);

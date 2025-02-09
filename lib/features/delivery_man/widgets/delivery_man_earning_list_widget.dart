@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/title_row_widget.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/delivery_man_earning_view_all_screen.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/widgets/delivery_man_earning_list_view_widget.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/top_delivery_man.dart';
+import 'package:vv_admin/helper/price_converter.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/title_row_widget.dart';
+import 'package:vv_admin/features/delivery_man/screens/delivery_man_earning_view_all_screen.dart';
+import 'package:vv_admin/features/delivery_man/widgets/delivery_man_earning_list_view_widget.dart';
 
 
 class DeliveryManEarningListWidget extends StatefulWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/models/emergency_contact_model.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/services/emergency_contruct_service_interface.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:vv_admin/data/model/response/response_model.dart';
+import 'package:vv_admin/features/emergency_contract/domain/models/emergency_contact_model.dart';
+import 'package:vv_admin/features/emergency_contract/domain/services/emergency_contruct_service_interface.dart';
+import 'package:vv_admin/main.dart';
 
 class EmergencyContactController extends ChangeNotifier {
   final EmergencyServiceInterface emergencyServiceInterface;

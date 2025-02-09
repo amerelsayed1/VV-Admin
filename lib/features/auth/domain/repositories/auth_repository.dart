@@ -3,12 +3,12 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/models/register_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/auth/domain/repositories/auth_repository_interface.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:vv_admin/data/datasource/remote/dio/dio_client.dart';
+import 'package:vv_admin/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:vv_admin/features/auth/domain/models/register_model.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/auth/domain/repositories/auth_repository_interface.dart';
+import 'package:vv_admin/utill/app_constants.dart';
 import 'package:path/path.dart';
 import 'package:http/http.dart' as http;
 

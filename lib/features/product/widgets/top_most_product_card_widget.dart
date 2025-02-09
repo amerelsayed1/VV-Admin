@@ -2,14 +2,14 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/features/product_details/screens/product_details_screen.dart';
+import 'package:vv_admin/features/product/domain/models/product_model.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/theme/controllers/theme_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/features/product_details/screens/product_details_screen.dart';
 
 class TopMostProductWidget extends StatelessWidget {
   final Product? productModel;

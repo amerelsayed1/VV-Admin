@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_model.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/custom_image_widget.dart';
+import 'package:vv_admin/features/chat/domain/models/message_model.dart';
+import 'package:vv_admin/utill/dimensions.dart';
 
 
 class ChattingMultiImageSlider extends StatefulWidget {

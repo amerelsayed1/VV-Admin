@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/searched_product_item_widget.dart';
+import 'package:vv_admin/features/product/controllers/product_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/features/pos/widgets/searched_product_item_widget.dart';
 
 class ProductSearchDialogWidget extends StatelessWidget {
   const ProductSearchDialogWidget({Key? key}) : super(key: key);

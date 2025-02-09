@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/business_analytics_filter_data.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/bank_info/domain/services/bank_info_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:vv_admin/features/order/domain/models/business_analytics_filter_data.dart';
+import 'package:vv_admin/features/profile/domain/models/profile_body.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/data/model/response/response_model.dart';
+import 'package:vv_admin/features/bank_info/domain/services/bank_info_service_interface.dart';
+import 'package:vv_admin/features/profile/domain/models/profile_info.dart';
+import 'package:vv_admin/helper/api_checker.dart';
 
 class BankInfoController extends ChangeNotifier {
   final BankInfoServiceInterface bankInfoServiceInterface;

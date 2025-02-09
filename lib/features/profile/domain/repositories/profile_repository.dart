@@ -1,13 +1,13 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/models/profile_info.dart';
-import 'package:sixvalley_vendor_app/features/profile/domain/repositories/profile_repository_interface.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:vv_admin/data/datasource/remote/dio/dio_client.dart';
+import 'package:vv_admin/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:vv_admin/features/profile/domain/models/profile_body.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/profile/domain/models/profile_info.dart';
+import 'package:vv_admin/features/profile/domain/repositories/profile_repository_interface.dart';
+import 'package:vv_admin/utill/app_constants.dart';
 import 'package:http/http.dart' as http;
 
 class ProfileRepository implements ProfileRepositoryInterface{

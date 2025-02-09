@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
 import 'package:readmore/readmore.dart';
-import 'package:sixvalley_vendor_app/features/review/controllers/product_review_controller.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart';
-import 'package:sixvalley_vendor_app/features/review/screens/review_reply_widget.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/rating_bar_widget.dart';
+import 'package:vv_admin/features/review/controllers/product_review_controller.dart';
+import 'package:vv_admin/features/review/domain/models/review_model.dart';
+import 'package:vv_admin/features/review/screens/review_reply_widget.dart';
+import 'package:vv_admin/helper/date_converter.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_image_widget.dart';
+import 'package:vv_admin/common/basewidgets/rating_bar_widget.dart';
 
 class ProductReviewItemWidget extends StatelessWidget {
   final ReviewModel reviewModel;

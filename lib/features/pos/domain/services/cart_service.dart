@@ -1,10 +1,10 @@
 
 
-import 'package:sixvalley_vendor_app/features/pos/domain/models/customer_body.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/place_order_body.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/temporary_cart_for_customer_model.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/repository/cart_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/services/cart_service_interface.dart';
+import 'package:vv_admin/features/pos/domain/models/customer_body.dart';
+import 'package:vv_admin/features/pos/domain/models/place_order_body.dart';
+import 'package:vv_admin/features/pos/domain/models/temporary_cart_for_customer_model.dart';
+import 'package:vv_admin/features/pos/domain/repository/cart_repository_interface.dart';
+import 'package:vv_admin/features/pos/domain/services/cart_service_interface.dart';
 
 class CartService implements CartServiceInterface{
   final CartRepositoryInterface cartRepositoryInterface;

@@ -2,12 +2,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/place_details_model.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/prediction_model.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/services/location_service_interface.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/order/domain/models/place_details_model.dart';
+import 'package:vv_admin/features/order/domain/models/prediction_model.dart';
+import 'package:vv_admin/features/order/domain/services/location_service_interface.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
 
 class LocationController with ChangeNotifier {
   final LocationServiceInterface locationServiceInterface;

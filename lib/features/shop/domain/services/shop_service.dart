@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/repositories/shop_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/services/shop_service_interface.dart';
+import 'package:vv_admin/features/shop/domain/models/shop_model.dart';
+import 'package:vv_admin/features/shop/domain/repositories/shop_repository_interface.dart';
+import 'package:vv_admin/features/shop/domain/services/shop_service_interface.dart';
 
 class ShopService implements ShopServiceInterface{
   final ShopRepositoryInterface shopRepositoryInterface;

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/profile/screens/profile_screen.dart';
-import 'package:sixvalley_vendor_app/features/profile/widgets/theme_changer_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/localization/controllers/localization_controller.dart';
+import 'package:vv_admin/features/profile/controllers/profile_controller.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/utill/app_constants.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_image_widget.dart';
+import 'package:vv_admin/features/profile/screens/profile_screen.dart';
+import 'package:vv_admin/features/profile/widgets/theme_changer_widget.dart';
 
 
 

@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/confirmation_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/reset_password_widget.dart';
+import 'package:vv_admin/common/basewidgets/confirmation_dialog_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_dialog_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/common/basewidgets/custom_button_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/features/auth/widgets/reset_password_widget.dart';
 
 class VerificationScreen extends StatelessWidget {
   final String mobileNumber;

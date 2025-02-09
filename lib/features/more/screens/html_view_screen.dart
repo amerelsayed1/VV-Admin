@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
 
 class HtmlViewScreen extends StatelessWidget {
   final String? title;

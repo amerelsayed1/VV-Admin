@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/wallet/domain/repositories/wallet_repository_interface.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:vv_admin/data/datasource/remote/dio/dio_client.dart';
+import 'package:vv_admin/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/wallet/domain/repositories/wallet_repository_interface.dart';
+import 'package:vv_admin/utill/app_constants.dart';
 
 class WalletRepository implements WalletRepositoryInterface{
   final DioClient dioClient;

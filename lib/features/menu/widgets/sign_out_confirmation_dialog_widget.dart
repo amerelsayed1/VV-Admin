@@ -1,16 +1,16 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/screens/auth_screen.dart';
+import 'package:vv_admin/features/product/controllers/product_controller.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/features/profile/controllers/profile_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_button_widget.dart';
+import 'package:vv_admin/features/auth/screens/auth_screen.dart';
 
 import 'delete_account_warning_dialog.dart';
 

@@ -1,6 +1,6 @@
 
-import 'package:sixvalley_vendor_app/features/product/domain/repositories/product_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/services/product_service_interface.dart';
+import 'package:vv_admin/features/product/domain/repositories/product_repository_interface.dart';
+import 'package:vv_admin/features/product/domain/services/product_service_interface.dart';
 
 class ProductService implements ProductServiceInterface{
   final ProductRepositoryInterface productRepoInterface;

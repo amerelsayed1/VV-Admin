@@ -1,6 +1,6 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/models/order_details_model.dart';
+import 'package:vv_admin/data/model/image_full_url.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/top_delivery_man.dart';
+import 'package:vv_admin/features/order_details/domain/models/order_details_model.dart';
 
 
 class OrderModel {

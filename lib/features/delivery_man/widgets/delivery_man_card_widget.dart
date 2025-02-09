@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/theme/controllers/theme_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/delivery_man_details_screen.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/screens/add_new_delivery_man_screen.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/top_delivery_man.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:vv_admin/localization/controllers/localization_controller.dart';
+import 'package:vv_admin/theme/controllers/theme_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_image_widget.dart';
+import 'package:vv_admin/features/delivery_man/screens/delivery_man_details_screen.dart';
+import 'package:vv_admin/features/delivery_man/screens/add_new_delivery_man_screen.dart';
 
 
 class DeliveryManCardWidget extends StatelessWidget {

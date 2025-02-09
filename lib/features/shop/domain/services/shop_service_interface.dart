@@ -3,7 +3,7 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
+import 'package:vv_admin/features/shop/domain/models/shop_model.dart';
 
 abstract class ShopServiceInterface{
   Future<dynamic> getShop();

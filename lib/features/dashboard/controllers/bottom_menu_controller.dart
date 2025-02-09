@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/order/screens/order_screen.dart';
-import 'package:sixvalley_vendor_app/features/pos/screens/pos_product_screen.dart';
-import 'package:sixvalley_vendor_app/features/pos/screens/pos_screen.dart';
+import 'package:vv_admin/features/order/screens/order_screen.dart';
+import 'package:vv_admin/features/pos/screens/pos_product_screen.dart';
+import 'package:vv_admin/features/pos/screens/pos_screen.dart';
 
 
 class BottomMenuController extends ChangeNotifier{

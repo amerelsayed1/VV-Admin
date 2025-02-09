@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
 
 class PriceConverter {
   static String convertPrice(BuildContext context, double? price, {double? discount, String? discountType}) {

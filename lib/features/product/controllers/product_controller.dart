@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/srock_limit_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/services/product_service_interface.dart';
-import 'package:sixvalley_vendor_app/features/review/controllers/product_review_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/top_selling_product_model.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/product/domain/models/product_model.dart';
+import 'package:vv_admin/features/product/domain/models/srock_limit_model.dart';
+import 'package:vv_admin/features/product/domain/services/product_service_interface.dart';
+import 'package:vv_admin/features/review/controllers/product_review_controller.dart';
+import 'package:vv_admin/features/product/domain/models/top_selling_product_model.dart';
+import 'package:vv_admin/helper/api_checker.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/main.dart';
 
 class ProductController extends ChangeNotifier {
   final ProductServiceInterface productServiceInterface;

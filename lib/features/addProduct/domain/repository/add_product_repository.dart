@@ -8,17 +8,17 @@ import 'package:dio/dio.dart';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/add_product_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/image_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/repository/add_product_repository_interface.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:vv_admin/data/datasource/remote/dio/dio_client.dart';
+import 'package:vv_admin/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:vv_admin/features/addProduct/domain/models/add_product_model.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/addProduct/domain/models/image_model.dart';
+import 'package:vv_admin/features/product/domain/models/product_model.dart';
+import 'package:vv_admin/features/addProduct/domain/repository/add_product_repository_interface.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/utill/app_constants.dart';
 
 
 class AddProductRepository implements AddProductRepositoryInterface{

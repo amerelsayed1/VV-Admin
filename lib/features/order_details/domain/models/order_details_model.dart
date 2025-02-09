@@ -1,6 +1,6 @@
 
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
+import 'package:vv_admin/data/model/image_full_url.dart';
+import 'package:vv_admin/features/order/domain/models/order_model.dart';
 
 class OrderDetailsModel {
   int? id;

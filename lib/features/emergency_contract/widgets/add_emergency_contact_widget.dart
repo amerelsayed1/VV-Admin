@@ -2,15 +2,15 @@ import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/code_picker_widget.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/domain/models/emergency_contact_model.dart';
-import 'package:sixvalley_vendor_app/helper/country_code_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/emergency_contract/controllers/emergency_contact_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:vv_admin/features/auth/widgets/code_picker_widget.dart';
+import 'package:vv_admin/features/emergency_contract/domain/models/emergency_contact_model.dart';
+import 'package:vv_admin/helper/country_code_helper.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/emergency_contract/controllers/emergency_contact_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/custom_button_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/common/basewidgets/textfeild/custom_text_feild_widget.dart';
 
 class AddEmergencyContactWidget extends StatefulWidget {
   final ContactList? contactList;

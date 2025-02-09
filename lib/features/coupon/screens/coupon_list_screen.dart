@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/coupon/controllers/coupon_controller.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/coupon/screens/add_new_coupon_screen.dart';
-import 'package:sixvalley_vendor_app/features/coupon/widgets/coupon_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/order/screens/order_screen.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/coupon/controllers/coupon_controller.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/no_data_screen.dart';
+import 'package:vv_admin/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:vv_admin/features/coupon/screens/add_new_coupon_screen.dart';
+import 'package:vv_admin/features/coupon/widgets/coupon_card_widget.dart';
+import 'package:vv_admin/features/order/screens/order_screen.dart';
 
 
 

@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:sixvalley_vendor_app/features/order_details/domain/repositories/order_details_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/order_details/domain/services/order_details_service_interface.dart';
+import 'package:vv_admin/features/order_details/domain/repositories/order_details_repository_interface.dart';
+import 'package:vv_admin/features/order_details/domain/services/order_details_service_interface.dart';
 
 class OrderDetailsService implements OrderDetailsServiceInterface {
   final OrderDetailsRepositoryInterface orderDetailsRepositoryInterface;

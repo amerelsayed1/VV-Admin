@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/shipping/domain/models/shipping_model.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/shipping/controllers/shipping_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/confirmation_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/features/settings/screens/order_wise_shipping_add_screen.dart';
+import 'package:vv_admin/features/shipping/domain/models/shipping_model.dart';
+import 'package:vv_admin/helper/price_converter.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/shipping/controllers/shipping_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/confirmation_dialog_widget.dart';
+import 'package:vv_admin/features/settings/screens/order_wise_shipping_add_screen.dart';
 
 
 

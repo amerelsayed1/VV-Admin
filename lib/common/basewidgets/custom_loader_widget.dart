@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:vv_admin/utill/dimensions.dart';
 
 
 class CustomLoaderWidget extends StatelessWidget {

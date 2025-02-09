@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/temporary_cart_for_customer_model.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/hold_order_item_widget.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:vv_admin/features/pos/controllers/cart_controller.dart';
+import 'package:vv_admin/features/pos/domain/models/temporary_cart_for_customer_model.dart';
+import 'package:vv_admin/features/pos/widgets/hold_order_item_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/utill/dimensions.dart';
 
 class HoldOrderSearchBarWidget extends StatefulWidget {
   const HoldOrderSearchBarWidget({super.key});

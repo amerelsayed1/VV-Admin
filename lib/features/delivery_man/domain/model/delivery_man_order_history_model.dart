@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/order/domain/models/order_model.dart';
+import 'package:vv_admin/features/order/domain/models/order_model.dart';
 
 class DeliveryManOrderHistoryModel {
   int? totalSize;

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/refund/controllers/refund_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_divider_widget.dart';
+import 'package:vv_admin/helper/price_converter.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/refund/controllers/refund_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_divider_widget.dart';
 
-import 'package:sixvalley_vendor_app/features/refund/widgets/refund_details_widget.dart';
+import 'package:vv_admin/features/refund/widgets/refund_details_widget.dart';
 
 class RefundPricingWidget extends StatelessWidget {
   const RefundPricingWidget({Key? key}) : super(key: key);

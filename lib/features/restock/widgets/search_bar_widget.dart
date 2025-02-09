@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/restock/controllers/restock_controller.dart';
-import 'package:sixvalley_vendor_app/features/restock/widgets/product_filter_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:vv_admin/features/restock/controllers/restock_controller.dart';
+import 'package:vv_admin/features/restock/widgets/product_filter_dialog_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
 
 class SearchBarWidget extends StatefulWidget {
   final bool showFilter;

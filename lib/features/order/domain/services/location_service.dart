@@ -1,7 +1,7 @@
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/repositories/location_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/order/domain/services/location_service_interface.dart';
+import 'package:vv_admin/features/order/domain/repositories/location_repository_interface.dart';
+import 'package:vv_admin/features/order/domain/services/location_service_interface.dart';
 
 class LocationService implements LocationServiceInterface{
   final LocationRepositoryInterface locationRepositoryInterface;

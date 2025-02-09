@@ -5,18 +5,18 @@
 // import 'package:image/image.dart' as img;
 // import 'package:provider/provider.dart';
 // import 'package:screenshot/screenshot.dart';
-// import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-// import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-// import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-// import 'package:sixvalley_vendor_app/features/pos/domain/models/invoice_model.dart';
-// import 'package:sixvalley_vendor_app/features/pos/widgets/invoice_dialog_widget.dart';
-// import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
+// import 'package:vv/common/basewidgets/custom_button_widget.dart';
+// import 'package:vv/common/basewidgets/custom_snackbar_widget.dart';
+// import 'package:vv/features/pos/controllers/cart_controller.dart';
+// import 'package:vv/features/pos/domain/models/invoice_model.dart';
+// import 'package:vv/features/pos/widgets/invoice_dialog_widget.dart';
+// import 'package:vv/features/shop/domain/models/shop_model.dart';
 // // import 'package:print_bluetooth_thermal/print_bluetooth_thermal.dart';
-// import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-// import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-// import 'package:sixvalley_vendor_app/main.dart';
-// import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-// import 'package:sixvalley_vendor_app/utill/styles.dart';
+// import 'package:vv/localization/controllers/localization_controller.dart';
+// import 'package:vv/localization/language_constrants.dart';
+// import 'package:vv/main.dart';
+// import 'package:vv/utill/dimensions.dart';
+// import 'package:vv/utill/styles.dart';
 //
 //
 // class InVoicePrintScreen extends StatefulWidget {

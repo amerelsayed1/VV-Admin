@@ -2,11 +2,11 @@
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/add_product_model.dart';
-import 'package:sixvalley_vendor_app/features/product/domain/models/product_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/domain/models/image_model.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:vv_admin/features/addProduct/domain/models/add_product_model.dart';
+import 'package:vv_admin/features/product/domain/models/product_model.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/addProduct/domain/models/image_model.dart';
+import 'package:vv_admin/interface/repository_interface.dart';
 
 abstract class AddProductRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getAttributeList(String languageCode);

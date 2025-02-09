@@ -1,17 +1,17 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/customer_body.dart';
-import 'package:sixvalley_vendor_app/helper/email_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/splash/controllers/splash_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_button_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/textfeild/custom_text_feild_widget.dart';
-import 'package:sixvalley_vendor_app/features/auth/widgets/code_picker_widget.dart';
+import 'package:vv_admin/features/pos/domain/models/customer_body.dart';
+import 'package:vv_admin/helper/email_checker.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/pos/controllers/cart_controller.dart';
+import 'package:vv_admin/features/splash/controllers/splash_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_button_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/common/basewidgets/textfeild/custom_text_feild_widget.dart';
+import 'package:vv_admin/features/auth/widgets/code_picker_widget.dart';
 
 class AddNewCustomerScreen extends StatefulWidget {
   const AddNewCustomerScreen({Key? key}) : super(key: key);

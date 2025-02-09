@@ -2,16 +2,16 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/product_review_model.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/ratting_model.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/services/review_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/features/review/domain/models/review_model.dart' as rm;
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/review/domain/models/product_review_model.dart';
+import 'package:vv_admin/features/review/domain/models/ratting_model.dart';
+import 'package:vv_admin/features/review/domain/models/review_model.dart';
+import 'package:vv_admin/features/review/domain/services/review_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
+import 'package:vv_admin/features/review/domain/models/review_model.dart' as rm;
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
 
 class ProductReviewController extends ChangeNotifier{
   final ReviewServiceInterface reviewServiceInterface;

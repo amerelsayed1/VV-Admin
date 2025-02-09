@@ -1,6 +1,6 @@
 
-import 'package:sixvalley_vendor_app/features/transaction/domain/repositories/transaction_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/transaction/domain/services/transaction_service_interface.dart';
+import 'package:vv_admin/features/transaction/domain/repositories/transaction_repository_interface.dart';
+import 'package:vv_admin/features/transaction/domain/services/transaction_service_interface.dart';
 
 class TransactionService implements TransactionServiceInterface{
   final TransactionRepositoryInterface transactionRepoInterface;

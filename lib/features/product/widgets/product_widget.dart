@@ -1,20 +1,20 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/product/controllers/product_controller.dart';
-import 'package:sixvalley_vendor_app/features/profile/controllers/profile_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/addProduct/screens/add_product_screen.dart';
-import 'package:sixvalley_vendor_app/features/order/screens/order_screen.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/animated_floating_button_widget.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/shop_product_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/product/screens/stock_out_product_screen.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/localization/controllers/localization_controller.dart';
+import 'package:vv_admin/features/product/controllers/product_controller.dart';
+import 'package:vv_admin/features/profile/controllers/profile_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/no_data_screen.dart';
+import 'package:vv_admin/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:vv_admin/features/addProduct/screens/add_product_screen.dart';
+import 'package:vv_admin/features/order/screens/order_screen.dart';
+import 'package:vv_admin/features/shop/widgets/animated_floating_button_widget.dart';
+import 'package:vv_admin/features/shop/widgets/shop_product_card_widget.dart';
+import 'package:vv_admin/features/product/screens/stock_out_product_screen.dart';
 
 class ProductViewWidget extends StatefulWidget {
   final int? sellerId;

@@ -4,20 +4,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:open_file_plus/open_file_plus.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/chat_model.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/models/message_model.dart';
-import 'package:sixvalley_vendor_app/features/chat/domain/services/chat_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/features/chat/domain/models/message_body.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/chat/domain/models/chat_model.dart';
+import 'package:vv_admin/features/chat/domain/models/message_model.dart';
+import 'package:vv_admin/features/chat/domain/services/chat_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
 import 'dart:async';
 import 'package:http/http.dart' as http;
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/helper/image_size_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:vv_admin/helper/date_converter.dart';
+import 'package:vv_admin/helper/image_size_checker.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/main.dart';
+import 'package:vv_admin/utill/app_constants.dart';
 
 enum SenderType {
   customer,

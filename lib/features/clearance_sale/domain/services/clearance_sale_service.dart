@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/repositories/clearance_sale_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/domain/services/clearance_sale_service_interface.dart';
+import 'package:vv_admin/features/clearance_sale/domain/repositories/clearance_sale_repository_interface.dart';
+import 'package:vv_admin/features/clearance_sale/domain/services/clearance_sale_service_interface.dart';
 
 class ClearanceSaleService implements ClearanceSaleServiceInterface{
   ClearanceSaleRepositoryInterface clearanceSaleRepositoryInterface;

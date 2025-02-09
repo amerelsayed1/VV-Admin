@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/transaction/controllers/transaction_controller.dart';
-import 'package:sixvalley_vendor_app/features/transaction/widgets/transaction_widget.dart';
+import 'package:vv_admin/features/transaction/controllers/transaction_controller.dart';
+import 'package:vv_admin/features/transaction/widgets/transaction_widget.dart';
 
 class WalletTransactionListViewWidget extends StatelessWidget {
   final TransactionController? transactionProvider;

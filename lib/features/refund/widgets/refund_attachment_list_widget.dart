@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/refund/domain/models/refund_model.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_image_widget.dart';
+import 'package:vv_admin/features/refund/domain/models/refund_model.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/custom_image_widget.dart';
 
 import 'image_diaglog_widget.dart';
 

@@ -1,8 +1,8 @@
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/features/notification/domain/repositories/notification_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/notification/domain/services/notification_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/data/model/response/response_model.dart';
+import 'package:vv_admin/features/notification/domain/repositories/notification_repository_interface.dart';
+import 'package:vv_admin/features/notification/domain/services/notification_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
 
 class NotificationService implements NotificationServiceInterface{
   final NotificationRepositoryInterface notificationRepoInterface;

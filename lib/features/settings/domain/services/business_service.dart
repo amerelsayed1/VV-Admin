@@ -1,10 +1,10 @@
 
 
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/models/business_model.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/repositories/buisness_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/services/business_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/settings/domain/models/business_model.dart';
+import 'package:vv_admin/features/settings/domain/repositories/buisness_repository_interface.dart';
+import 'package:vv_admin/features/settings/domain/services/business_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
 
 class BusinessService implements BusinessServiceInterface{
   final BusinessRepositoryInterface businessRepoInterface;

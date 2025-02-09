@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:vv_admin/utill/app_constants.dart';
 
 class ThemeController with ChangeNotifier {
   final SharedPreferences? sharedPreferences;

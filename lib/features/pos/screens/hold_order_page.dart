@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/pos/controllers/cart_controller.dart';
-import 'package:sixvalley_vendor_app/features/pos/domain/models/temporary_cart_for_customer_model.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/hold_order_header_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/hold_order_item_widget.dart';
-import 'package:sixvalley_vendor_app/features/pos/widgets/hold_order_search_bar_widget.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:vv_admin/common/basewidgets/no_data_screen.dart';
+import 'package:vv_admin/features/pos/controllers/cart_controller.dart';
+import 'package:vv_admin/features/pos/domain/models/temporary_cart_for_customer_model.dart';
+import 'package:vv_admin/features/pos/widgets/hold_order_header_widget.dart';
+import 'package:vv_admin/features/pos/widgets/hold_order_item_widget.dart';
+import 'package:vv_admin/features/pos/widgets/hold_order_search_bar_widget.dart';
+import 'package:vv_admin/utill/dimensions.dart';
 
 class HoldOrderScreen extends StatefulWidget {
   const HoldOrderScreen({super.key});

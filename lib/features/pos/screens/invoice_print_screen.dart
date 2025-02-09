@@ -4,12 +4,12 @@
 // import 'package:esc_pos_utils/esc_pos_utils.dart';
 // import 'package:flutter/material.dart';
 // // import 'package:flutter_pos_printer_platform/flutter_pos_printer_platform.dart';
-// import 'package:sixvalley_vendor_app/features/pos/domain/models/invoice_model.dart';
-// import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-// import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-// import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-// import 'package:sixvalley_vendor_app/main.dart';
-// import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
+// import 'package:vv/features/pos/domain/models/invoice_model.dart';
+// import 'package:vv/features/shop/domain/models/shop_model.dart';
+// import 'package:vv/helper/date_converter.dart';
+// import 'package:vv/localization/language_constrants.dart';
+// import 'package:vv/main.dart';
+// import 'package:vv/common/basewidgets/custom_app_bar_widget.dart';
 // import 'package:flutter_pos_printer_platform_image_3/flutter_pos_printer_platform_image_3.dart';
 // // import 'package:flutter_pos_printer_platform_image_3_sdt/flutter_pos_printer_platform_image_3_sdt.dart';
 //

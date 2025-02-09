@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/models/business_model.dart';
-import 'package:sixvalley_vendor_app/features/settings/domain/services/business_service_interface.dart';
+import 'package:vv_admin/features/settings/domain/models/business_model.dart';
+import 'package:vv_admin/features/settings/domain/services/business_service_interface.dart';
 
 class BusinessController extends ChangeNotifier {
   final BusinessServiceInterface businessServiceInterface;

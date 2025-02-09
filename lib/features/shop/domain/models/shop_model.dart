@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/image_full_url.dart';
+import 'package:vv_admin/data/model/image_full_url.dart';
 
 class ShopModel {
   int? id;

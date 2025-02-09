@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/auth/controllers/auth_controller.dart';
-import 'package:sixvalley_vendor_app/features/settings/controllers/business_controller.dart';
-import 'package:sixvalley_vendor_app/localization/controllers/localization_controller.dart';
-import 'package:sixvalley_vendor_app/features/shipping/controllers/shipping_controller.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/features/settings/screens/order_wise_shipping_add_screen.dart';
-import 'package:sixvalley_vendor_app/features/settings/widgets/order_wise_shipping_card_widget.dart';
-import 'package:sixvalley_vendor_app/features/shipping/widgets/drop_down_for_shipping_type_widget.dart';
-import 'package:sixvalley_vendor_app/features/shop/widgets/animated_floating_button_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/auth/controllers/auth_controller.dart';
+import 'package:vv_admin/features/settings/controllers/business_controller.dart';
+import 'package:vv_admin/localization/controllers/localization_controller.dart';
+import 'package:vv_admin/features/shipping/controllers/shipping_controller.dart';
+import 'package:vv_admin/utill/color_resources.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_dialog_widget.dart';
+import 'package:vv_admin/common/basewidgets/no_data_screen.dart';
+import 'package:vv_admin/features/settings/screens/order_wise_shipping_add_screen.dart';
+import 'package:vv_admin/features/settings/widgets/order_wise_shipping_card_widget.dart';
+import 'package:vv_admin/features/shipping/widgets/drop_down_for_shipping_type_widget.dart';
+import 'package:vv_admin/features/shop/widgets/animated_floating_button_widget.dart';
 
 class OrderWiseShippingScreen extends StatefulWidget {
   const OrderWiseShippingScreen({Key? key}) : super(key: key);

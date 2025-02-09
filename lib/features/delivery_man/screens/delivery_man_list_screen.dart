@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/controllers/delivery_man_controller.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_delegate_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_search_field_widget.dart';
-import 'package:sixvalley_vendor_app/features/delivery_man/widgets/delivery_man_list_view_widget.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/features/delivery_man/controllers/delivery_man_controller.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_delegate_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_search_field_widget.dart';
+import 'package:vv_admin/features/delivery_man/widgets/delivery_man_list_view_widget.dart';
 
 class DeliveryManListScreen extends StatefulWidget {
   const DeliveryManListScreen({Key? key}) : super(key: key);

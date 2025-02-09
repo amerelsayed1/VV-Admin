@@ -4,9 +4,9 @@ import 'dart:io';
 
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/shop/domain/models/shop_model.dart';
-import 'package:sixvalley_vendor_app/interface/repository_interface.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/shop/domain/models/shop_model.dart';
+import 'package:vv_admin/interface/repository_interface.dart';
 
 abstract class ShopRepositoryInterface implements RepositoryInterface{
   Future<ApiResponse> getShop();

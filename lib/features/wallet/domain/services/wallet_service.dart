@@ -1,9 +1,9 @@
 
 
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/features/wallet/domain/repositories/wallet_repository_interface.dart';
-import 'package:sixvalley_vendor_app/features/wallet/domain/services/wallet_service_interface.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:vv_admin/data/model/response/base/api_response.dart';
+import 'package:vv_admin/features/wallet/domain/repositories/wallet_repository_interface.dart';
+import 'package:vv_admin/features/wallet/domain/services/wallet_service_interface.dart';
+import 'package:vv_admin/helper/api_checker.dart';
 
 class WalletService implements WalletServiceInterface{
   final WalletRepositoryInterface walletRepoInterface;

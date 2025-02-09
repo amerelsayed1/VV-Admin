@@ -1,5 +1,5 @@
 
-import 'package:sixvalley_vendor_app/features/delivery_man/domain/model/delivery_man_detail_model.dart';
+import 'package:vv_admin/features/delivery_man/domain/model/delivery_man_detail_model.dart';
 
 class DeliveryManEarningModel {
   int? totalSize;

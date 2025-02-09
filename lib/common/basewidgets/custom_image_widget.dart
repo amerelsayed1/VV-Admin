@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:vv_admin/utill/images.dart';
 
 class CustomImageWidget extends StatelessWidget {
   final String image;

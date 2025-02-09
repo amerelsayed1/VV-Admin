@@ -2,22 +2,22 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_app_bar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_loader_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/custom_snackbar_widget.dart';
-import 'package:sixvalley_vendor_app/common/basewidgets/paginated_list_view_widget.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/controllers/clearance_sale_controller.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/screens/clearance_search_product_screen.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/clearance_offer_setup_widget.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/clearance_product_widget.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/clearance_sale_section_widget.dart';
-import 'package:sixvalley_vendor_app/features/clearance_sale/widgets/delete_confiramation_dialog_widget.dart';
-import 'package:sixvalley_vendor_app/features/order/screens/order_screen.dart';
-import 'package:sixvalley_vendor_app/helper/debounce_helper.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:vv_admin/common/basewidgets/custom_app_bar_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_loader_widget.dart';
+import 'package:vv_admin/common/basewidgets/custom_snackbar_widget.dart';
+import 'package:vv_admin/common/basewidgets/paginated_list_view_widget.dart';
+import 'package:vv_admin/features/clearance_sale/controllers/clearance_sale_controller.dart';
+import 'package:vv_admin/features/clearance_sale/screens/clearance_search_product_screen.dart';
+import 'package:vv_admin/features/clearance_sale/widgets/clearance_offer_setup_widget.dart';
+import 'package:vv_admin/features/clearance_sale/widgets/clearance_product_widget.dart';
+import 'package:vv_admin/features/clearance_sale/widgets/clearance_sale_section_widget.dart';
+import 'package:vv_admin/features/clearance_sale/widgets/delete_confiramation_dialog_widget.dart';
+import 'package:vv_admin/features/order/screens/order_screen.dart';
+import 'package:vv_admin/helper/debounce_helper.dart';
+import 'package:vv_admin/localization/language_constrants.dart';
+import 'package:vv_admin/utill/dimensions.dart';
+import 'package:vv_admin/utill/images.dart';
+import 'package:vv_admin/utill/styles.dart';
 
 
 class ClearanceSaleScreen extends StatefulWidget {

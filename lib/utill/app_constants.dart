@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/localization/models/language_model.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:vv_admin/localization/models/language_model.dart';
+import 'package:vv_admin/utill/images.dart';
 
 class AppConstants {
   static const String appName = 'Vitals & Vibes';

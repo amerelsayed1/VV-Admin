@@ -1,4 +1,4 @@
-// import 'package:sixvalley_vendor_app/features/addProduct/domain/models/edt_product_model.dart';
+// import 'package:vv/features/addProduct/domain/models/edt_product_model.dart';
 
 import '../../../product/domain/models/product_model.dart';
 

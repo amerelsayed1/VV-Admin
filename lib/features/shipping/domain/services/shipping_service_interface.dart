@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/features/shipping/domain/models/shipping_model.dart';
+import 'package:vv_admin/features/shipping/domain/models/shipping_model.dart';
 
 abstract class ShippingServiceInterface {
   Future<dynamic> getShipping();
